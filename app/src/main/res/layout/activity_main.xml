@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_screen"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/spacer"
+        android:textColor="@color/accent"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_example"
+        android:textSize="20sp"
+        android:layout_marginBottom="@dimen/spacer"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/example_edittext"
+        android:paddingHorizontal="@dimen/example_padding_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_firstname"
+            />
+
+        <Space
+            android:layout_width="@dimen/spacer"
+            android:layout_height="0dp"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_lastname"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/example_radiobutton"
+        android:paddingHorizontal="@dimen/example_padding_horizontal"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_main_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_main_test_choice_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_choice_1"
+                android:checked="true"
+                android:textColor="@color/accent"
+                app:buttonTint="@color/accent"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_main_test_choice_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_choice_2"
+                android:textColor="@color/accent"
+                app:buttonTint="@color/accent"
+                />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/example_checkbox"
+        android:paddingHorizontal="@dimen/example_padding_horizontal"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ck_example"
+        android:textColor="@color/accent"
+        app:buttonTint="@color/accent"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_change_mode"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/spacer"
+        android:layout_marginBottom="@dimen/spacer"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_main_day_mode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_day"
+            />
+
+        <Space
+            android:layout_width="@dimen/spacer"
+            android:layout_height="0dp"
+            />
+
+        <Button
+            android:id="@+id/btn_main_night_mode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_night"
+            />
+
+        <Space
+            android:layout_width="@dimen/spacer"
+            android:layout_height="0dp"
+            />
+
+        <Button
+            android:id="@+id/btn_main_default_mode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_system"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

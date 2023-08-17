@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_screen">20dp</dimen>
+    <dimen name="spacer">15dp</dimen>
+    <dimen name="example_padding_horizontal">5sp</dimen>
+</resources>

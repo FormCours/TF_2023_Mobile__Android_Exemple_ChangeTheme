@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Demo DayNight</string>
+    <string name="title_example">Exemple d\'element UI</string>
+    <string name="example_edittext">● Edit Text</string>
+    <string name="example_radiobutton">● Radio Button</string>
+    <string name="example_checkbox">● Check Box</string>
+    <string name="hint_firstname">Firstname</string>
+    <string name="hint_lastname">Lastname</string>
+    <string name="radio_choice_1">Choix 1</string>
+    <string name="radio_choice_2">Choix 2</string>
+    <string name="ck_example">Ceci est un check box !</string>
+    <string name="title_change_mode">Change de mode</string>
+    <string name="btn_day">Jour</string>
+    <string name="btn_night">Nuit</string>
+    <string name="btn_system">Systeme</string>
+</resources>
