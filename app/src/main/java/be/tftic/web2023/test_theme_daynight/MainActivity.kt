@@ -2,6 +2,7 @@ package be.tftic.web2023.test_theme_daynight
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import be.tftic.web2023.test_theme_daynight.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,14 +21,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun enableDayMode() {
-        TODO("Not yet implemented")
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
     }
 
     private fun enableNightMode() {
-        TODO("Not yet implemented")
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
     }
 
     private fun enableDefaultMode() {
-        TODO("Not yet implemented")
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
     }
 }
